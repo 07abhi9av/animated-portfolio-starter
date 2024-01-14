@@ -25,7 +25,7 @@ const items = [
         id: 4,
         title: "Weather Application",
         img: "https://as1.ftcdn.net/v2/jpg/04/91/54/18/1000_F_491541875_c0vIhFwHnRZvmRfJELvJxtSQbRDOwbGC.jpg",
-        desc: "Designed and developed a weather forecasting mobile application that provides real-time weather data for userdefined locations. The app leverages a RESTful API to fetch and display weather information, including temperature, humidity, wind speed, and more, in a minimalistic and user-friendly interface"
+        desc: "Designed and developed a weather forecasting mobile application that provides real-time weather data for userdefined locations. The app leverages a RESTful API to fetch and display weather information, including temperature, humidity, wind speed, and more, in a minimalistic and user-friendly interface."
     },
 
 ]
@@ -50,7 +50,7 @@ const Single = ({ item }) => {
                 <motion.div className="textContainer" style={{y}}>
                     <h2>{item.title}</h2>
                     <p>{item.desc}</p>
-                    <button>See Demo</button>
+                    <a href="https://github.com/07abhi9av"><button>See Demo</button></a>
                 </motion.div>
             </div>
         </div>

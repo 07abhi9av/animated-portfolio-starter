@@ -37,7 +37,7 @@ const Experience = () => {
             <motion.div className="titleContainer" variants={variants}>
 
                 <div className="title">
-                    <img src="/arrow.jpg" alt="" />
+                    <img src="/zigzag-arrow.png" alt="" />
                     <h1>
                         <motion.b whileHover={{ color: "orange" }}>Explore</motion.b> My
                     </h1>
