@@ -1,5 +1,5 @@
 import { useRef } from "react";
-import "./services.scss"
+import "./experience.scss"
 import { color, motion, useInView } from "framer-motion"
 
 const variants = {
@@ -19,18 +19,17 @@ const variants = {
     },
 };
 
-const Services = () => {
+const Experience = () => {
 
     const ref = useRef();
     const isInView = useInView(ref, { margin: "-100px" });
 
     return (
-        <motion.div className="services" variants={variants} initial="initial" ref={ref} animate={"animate"}>
+        <motion.div className="experience" variants={variants} initial="initial" ref={ref} animate={"animate"}>
 
             <motion.div className="textContainer" variants={variants}>
                 <p>
-                    I focus on helping your us grow
-                    <br /> and move forward together.
+                    Striving for Excellence ,<br />Embracing Every Challenge !
                 </p>
                 <hr />
             </motion.div>
@@ -73,26 +72,27 @@ const Services = () => {
                         to the cloud seamlessly using Cloud Bucket technology.
 
                     </p>
-                    <button>IBM</button>
+                    <button>IBM, 2023</button>
                 </motion.div>
                 <motion.div className="box" whileHover={{ background: "lightgray", color: "black" }}>
-                    <h2>Web Developer</h2>
+                    <h2>Web Developer <br /> Intern</h2>
                     <p>
                         I played a
                         pivotal role in designing and implementing sophisticated
                         websites. Focused on merging aesthetic appeal with seamless
                         functionality, I contributed to enhancing the online
-                        presence of clients through meticulous web development.
+                        presence of the brand through meticulous web development.
                     </p>
-                    <button>OriumWeb Solutions</button>
+                    <button>OriumWeb Solutions, 2023</button>
                 </motion.div>
                 <motion.div className="box" whileHover={{ background: "lightgray", color: "black" }}>
                     <h2>Software Engineer Intern</h2>
                     <p>
-                        My role as a Software Engineer Intern at RadicalX was
-                        immersed in the realm of AI-driven projects. Contributing
-                        to transformative technologies, I leveraged advanced algorithms,
-                        making significant strides in the development of intelligent solutions.
+                        As a Software Engineer Intern at RadicalX, my primary focus
+                        lies within the intricate domain of AI-driven projects.
+                        Committed to innovation, I navigate the
+                        complex landscape of artificial intelligence, consistently
+                        aiming for excellence in every facet of my work.
                     </p>
                     <button>RadicalX, 2023 - 2024</button>
                 </motion.div>
@@ -101,4 +101,4 @@ const Services = () => {
     )
 }
 
-export default Services
+export default Experience

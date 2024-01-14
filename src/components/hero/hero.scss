@@ -17,83 +17,70 @@
             display: flex;
             flex-direction: column;
             justify-content: center;
-            gap: 40px;
+            gap: 20px; // Adjusted gap for better spacing
             text-align: center;
 
-
             h2 {
-                font-size: 45px;
-                letter-spacing: 8px;
-                font-weight: 1000;
-                background: linear-gradient(180deg, #bb00ff, #fff, #bb00ff);
+                font-size: 34px; // Adjusted font size
+                letter-spacing: 6px; // Adjusted letter spacing
+                font-weight: 800; // Adjusted font weight
+                background: linear-gradient(45deg, #9500ff, #f87e92, #0a0af9);
                 background-clip: text;
                 color: transparent;
 
                 @include mobile {
-                    font-size: 27px;
-                    background: linear-gradient(45deg, #9500ff, #f87e92, #0a0af9);
-                    background-clip: text;
-                    color: transparent;
+                    font-size: 20px;
                 }
             }
 
             h1 {
-                font-size: 88px;
+                font-size: 66px; // Adjusted font size
 
                 @include mobile {
-                    font-size: 60px;
+                    font-size: 45px; // Adjusted font size
                 }
             }
 
             .buttons {
                 button {
-                    padding: 20px;
-                    border: 2px solid #9500ff;
-                    border-radius: 30px;
+                    padding: 15px; // Adjusted padding
+                    border: 2px solid #822e5c;
+                    border-radius: 20px; // Adjusted border radius
                     background-color: transparent;
                     color: white;
-                    margin-right: 20px;
+                    margin-right: 15px; // Adjusted margin
                     cursor: pointer;
                     font-weight: bold;
-                    font-size: 18px;
+                    font-size: 14px; // Adjusted font size
                     position: relative;
                     z-index: 2;
 
                     @include mobile {
-                        background-color: transparent;
                         border: 2px solid orange;
-                        border-radius: 30px;
-                        color: white;
-                        font-size: 14px;
+                        border-radius: 20px; // Adjusted border radius
+                        font-size: 12px; // Adjusted font size
                     }
                 }
-
-
             }
 
             img {
-                width: 55px;
-                margin-left: auto;
-                margin-right: auto;
+                width: 45px; // Adjusted width
+                margin: 0 auto; // Center the image
                 display: block;
-                /* Ensure the image is treated as a block element for margin auto to work */
             }
         }
     }
 
     .slidingTextContainer {
         position: absolute;
-        font-size: 50vh;
-        bottom: -120px;
+        font-size: 40vh; // Adjusted font size
+        bottom: -90px; // Adjusted position
         white-space: nowrap;
         color: #ffffff09;
         width: 50%;
         font-weight: bold;
-        //z-index: 1;
     }
 }
-
-
 
 
 // .hero{

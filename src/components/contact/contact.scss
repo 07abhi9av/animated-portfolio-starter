@@ -7,6 +7,8 @@
     display: flex;
     align-items: center;
     gap: 50px;
+    zoom: 0.70;
+
 
     @include mobile {
         width: 100%;
@@ -92,7 +94,7 @@
     }
 
     .footer {
-        position:fixed;
+        position: fixed;
         bottom: 0;
         left: 0;
         right: 0;
@@ -101,15 +103,16 @@
         /* Set a background color if needed */
         padding-bottom: 30px;
         /* Add some padding for better visibility */
-        //box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);      
-        
+        //box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);    
+
         p {
             font-size: 24px;
             color: white;
         }
 
         span {
-            margin: 15px; /* Adjust spacing between year and "Made" */
+            margin: 15px;
+            /* Adjust spacing between year and "Made" */
         }
     }
 }

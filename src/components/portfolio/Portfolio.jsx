@@ -19,7 +19,7 @@ const items = [
         id: 3,
         title: "Employee MS",
         img: "https://img.freepik.com/free-vector/business-people-showing-document-client_1262-19209.jpg?w=740&t=st=1703102768~exp=1703103368~hmac=c88b1b26023b63d549ab965649104abc38964e6b6a110e854dbf09c6b1d0f82a",
-        desc: "A React-Native-based Employee Management System, designing intuitive interfaces and implementing robust features, ensuring an efficient and modern system. honing my skills in software development and problem-solving in this dynamic environment."
+        desc: "A React Native based Employee Management System, designing intuitive interfaces and implementing robust features, ensuring an efficient and modern system. honing my skills in software development and problem-solving in this dynamic environment."
     },
     {
         id: 4,

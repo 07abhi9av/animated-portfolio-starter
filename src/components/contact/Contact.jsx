@@ -67,9 +67,9 @@ const Contact = () => {
                 </form>
             </div>
 
-            <div className="footer">
-                <p>&#169; 2024<span> | </span>Made with ❤️ by Abhinav</p>
-            </div>
+            <motion.div className="footer">
+                <p>&#169; 2024<motion.span> | </motion.span>Made with ❤️ by Abhinav</p>
+            </motion.div>
 
         </motion.div>
 

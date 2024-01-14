@@ -46,7 +46,7 @@ const Hero = () => {
                     <motion.h2 variants={textVariants}>ABHINAV ARYAN</motion.h2>
                     <motion.h1 variants={textVariants}>Developer and UI Designer</motion.h1>
                     <motion.div variants={textVariants} className="buttons">
-                        <a href="#Services"><motion.button variants={textVariants}>Explore More !</motion.button></a>
+                        <a href="#Experience"><motion.button variants={textVariants}>Explore More !</motion.button></a>
                         <a href="#Contact"><motion.button variants={textVariants}>Contact Me</motion.button></a>
                     </motion.div>
                     <motion.img variants={textVariants} animate="scrollButton" src="/scroll.png" alt="" />
@@ -54,7 +54,7 @@ const Hero = () => {
             </div>
 
             <motion.div className="slidingTextContainer" variants={sliderVariants} initial="initial" animate="animate">
-                Developer Dynamic Driven
+                Dynamic Innovative Passionate
             </motion.div>
 
             {/* <div className="imageContainer">

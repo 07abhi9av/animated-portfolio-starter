@@ -1,44 +1,41 @@
 @import "../../app.scss";
 
 .navbar {
-    height: 100px;
+    height: 100px; // Adjusted height for default 75% zoom
 
     .wrapper {
         max-width: 1366px;
-        margin: auto;
+        margin-left: 110px;
+        margin-right: 35px;
+        margin-top: 7px;
         display: flex;
         align-items: center;
         justify-content: space-between;
-        height: 100px;
+        height: 75px; // Adjusted height for default 75% zoom
 
-        @include mobile{
+        @include mobile {
             justify-content: flex-end;
-            padding: 20px;
+            padding: 15px; // Adjusted padding for default 75% zoom
         }
 
-        span{
+        span {
             font-weight: bold;
-            font-size: 20px;
+            font-size: 15px; // Adjusted font size for default 75% zoom
 
-            @include mobile{
+            @include mobile {
                 display: none;
             }
         }
 
         .social {
             display: flex;
-            gap: 25px;
+            gap: 18px; // Adjusted gap for better spacing
 
-            img{
-                width: 40px;
-                height: 40px;
-                border-radius: 50px;
+            img {
+                width: 30px; // Adjusted width for default 75% zoom
+                height: 30px; // Adjusted height for default 75% zoom
+                border-radius: 50%; // Adjusted border radius for a circular shape
             }
         }
-
-
     }
-
-
 }
-

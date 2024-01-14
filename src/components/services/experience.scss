@@ -1,11 +1,12 @@
 @import "../../app.scss";
 
-.services{
+.experience{
     background: linear-gradient(180deg, #0c0c1d, #111132);
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    zoom: 0.75;
 
     .textContainer{
         flex: 1;
@@ -57,7 +58,7 @@
         .title{
             display: flex;
             align-items: center;
-            gap: 50px;
+            gap: 30px;
 
             @include mobile {
                 flex-direction: column;
@@ -66,8 +67,8 @@
             }
 
             img{
-                width: 300px;
-                height: 100px;
+                width: 225px;
+                height: 90px;
                 border-radius: 50px;
                 object-fit: fill;
                 
@@ -78,7 +79,7 @@
             }
 
             h1{
-                font-size: 96px;
+                font-size: 80px;
                 font-weight: 100;
 
                 @include mobile {
@@ -87,12 +88,13 @@
             }
 
             button{
-                width: 300px;
-                height: 100px;
+                width: 250px;
+                height: 90px;
                 border-radius: 50px;
                 background-color: orange;
                 border: none;
-                font-size: 24px;
+                font-size: 20px;
+                font-weight: bold;
                 cursor: pointer;
                 color: white;
                 
@@ -108,9 +110,9 @@
     }
 
     .listContainer{
-        flex: 2;
+        flex: 3.5;
         display: flex;
-        max-width: 1366px;
+        max-width: 1400px;
         margin: auto;
 
         @include mobile {
