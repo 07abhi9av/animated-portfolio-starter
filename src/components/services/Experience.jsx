@@ -52,6 +52,7 @@ const Experience = () => {
 
             </motion.div>
 
+            
             <motion.div className="listContainer" variants={variants}>
                 <motion.div className="box" whileHover={{ background: "lightgray", color: "black" }}>
                     <h2>Contributor</h2>
