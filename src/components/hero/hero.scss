@@ -57,9 +57,9 @@
                     z-index: 2;
 
                     @include mobile {
-                        border: 2px solid orange;
+                        border: 1px solid orange;
                         border-radius: 20px; // Adjusted border radius
-                        font-size: 12px; // Adjusted font size
+                        font-size: 13px; // Adjusted font size
                     }
                 }
             }

@@ -42,6 +42,7 @@
 
             @include mobile {
                 flex-direction: column;
+                margin-top: 90px;
             }
 
             .imageContainer{
@@ -59,7 +60,7 @@
                     object-fit: cover;
 
                     @include mobile {
-                        object-fit: contain;
+                        object-fit: cover;
                     }
                 }
             }
@@ -74,7 +75,10 @@
                     transform: none !important;
                     padding: 7.5px;
                     align-items: center;
-                    text-align: center;
+                    text-align: justify;
+                    margin-left: 12px;
+                    margin-right: 12px;
+                    margin-top: 60px;
                 }
 
                 h2{

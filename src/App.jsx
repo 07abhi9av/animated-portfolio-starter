@@ -9,18 +9,26 @@ import Experience from "./components/services/Experience";
 
 const App = () => {
   return <div>
+
     <Cursor />
+
     <section id="Home">
       <Navbar />
       <Hero />
     </section>
+
     <section id="Experience"><Parallax type="experience" /></section>
+
     <section><Experience /></section>
+
     <section id="Portfolio"><Parallax type="portfolio" /></section>
+
     <Portfolio />
+
     <section id="Contact">
       <Contact />
     </section>
+
   </div>;
 };
 

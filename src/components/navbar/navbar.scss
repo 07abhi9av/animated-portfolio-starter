@@ -14,7 +14,8 @@
 
         @include mobile {
             justify-content: flex-end;
-            padding: 15px; // Adjusted padding for default 75% zoom
+            padding: auto;
+            padding-top: 6.5px;
         }
 
         span {
